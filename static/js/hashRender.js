@@ -1,4 +1,5 @@
 import rsaOaep from "./rsa-oaep.js";
+import CssToggler from "./css-toggler.js";
 function hashRender ({aref, cache, values}) {
     const that = this;
     this.root = "https://api.github.com/repos/ummulahid/sozlesme/contents/static/md/";
@@ -9,6 +10,7 @@ function hashRender ({aref, cache, values}) {
     this.decrypt = false;
     this.decryptBusy = false;
     this.rsaOaep = null;
+    this.cssToggler = new CssToggler({values});
     this.meta = d => d?.name === "meta.json";
     this.textDecoder = new TextDecoder('utf-8');
     (window || self).addEventListener("hashchange", function(){
@@ -234,6 +236,7 @@ prt.renderDataFromHash = async function() {
                     ? await this.decryptDecodedContent(decodedContent)
                     : decodedContent;
                 if (decodedContent instanceof Error || initialHash !== this.currentHash) {return}
+                this.cssToggler.toggle(this.values.meta[data.name]?.css, 1);
                 ch(this.values.textContainerOne)
                 .animate(
                     [{opacity: 1}],
