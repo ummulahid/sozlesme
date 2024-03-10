@@ -1,0 +1,5 @@
+.text-container-1 .buyukharf::first-letter {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: "arabic-large";
+}
