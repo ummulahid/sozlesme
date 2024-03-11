@@ -1,5 +1,18 @@
-.text-container-1 .buyukharf::first-letter {
+.text-container-1 :is(.buyukharf::first-letter, i.fa-chain + span::first-letter) {
     font-size: 4rem;
     text-transform: uppercase;
     font-family: "arabic-large";
+}
+
+.text-container-1 a:has(i.fa-chain) {
+    text-decoration: none;
+}
+
+.text-container-1 {
+    text-align: justify;
+    text-wrap: balance;
+}
+
+p {
+    text-indent: 2rem;
 }
