@@ -144,9 +144,9 @@
             this._busy = true;
             const result = await Swal.fire({
                 icon: "warning",
-                title: "Proceed?",
-                text: `This will remove your local data and force a refresh from github for next time.
-                You are not advised to do this more than 60 times per hour.`,
+                title: "Devam?",
+                text: `Bu işlem önceki sayfaları silip GitHub'dan en güncel versiyonlarını kullanacaktır.
+                Saat başına en fazla 60 defa kullanınız.`,
                 showCancelButton:true
             });
             if(!result.isConfirmed){

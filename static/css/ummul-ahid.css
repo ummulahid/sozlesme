@@ -4,8 +4,13 @@
     font-family: "arabic-large";
 }
 
+p:has(i.fa-chain):hover {
+    border-left: 4px solid var(--font-color);
+}
+
 .text-container-1 a:has(i.fa-chain) {
     text-decoration: none;
+    color: inherit;
 }
 
 .text-container-1 {
@@ -15,4 +20,32 @@
 
 p {
     text-indent: 2rem;
+}
+
+#ummulahid-baslik {
+    font-size: 4rem;
+    font-family: 'arabic-large';
+}
+
+blockquote {
+    background: var(--bg-color-transparent);
+    color: var(--font-color);
+    font-size: 120%;
+    font-style: italic;
+    border: 1px solid var(--bg-color-3);
+    border-radius:4px;
+    padding: 1rem;
+    margin: 0.5rem 0.5rem;
+    clear: both;
+}
+blockquote:before {
+    color: var(--bg-color-2);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote, q {
+    quotes: "\201C""\201D""\2018""\2019";
 }

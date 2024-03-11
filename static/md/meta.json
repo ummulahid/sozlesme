@@ -2,7 +2,7 @@
   "ummul-ahid.html": {
     "tip": "Ümmü'l Ahid (TAMAMI)",
     "isim": "O söz üzere olan var mı ?",
-    "icerik": "Tanımaya devam etmek ve anlamak üzerine düşüncelerim.<br> Okumak icin buraya tıklayınız.",
+    "icerik": "Tanımaya devam etmek ve anlamak üzerine düşüncelerim.<br><br><span style='font-variant:small-caps; font-size:150%;'>Okumak için tıklayınız.</span>",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css"
   }
