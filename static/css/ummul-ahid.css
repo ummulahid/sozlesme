@@ -1,4 +1,4 @@
-.text-container-1 :is(.buyukharf::first-letter, i.fa-chain + span::first-letter) {
+.text-container-1 :is(.buyukharf, p:has(i.fa-chain))::first-letter {
     font-size: 4rem;
     text-transform: uppercase;
     font-family: "arabic-large";
