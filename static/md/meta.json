@@ -2,7 +2,29 @@
   "ummul-ahid.html": {
     "tip": "Ümmü'l Ahid (TAMAMI)",
     "isim": "O söz üzere olan var mı ?",
-    "icerik": "Tanımaya devam etmek ve anlamak üzerine düşüncelerim.<br><br><span style='font-variant:small-caps; font-size:150%;'>Okumak için tıklayınız.</span>",
+    "icerik": "<span style='font-variant:small-caps; font-size:150%;'>Okumak için tıklayınız.</span><br><br>Tanımaya devam etmek ve anlamak üzerine düşüncelerim. Aşağıda bölümlere ayrılmış hali bulunmaktadır.",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 1
+  },
+  "allah.html": {
+    "tip": " ",
+    "isim": " ",
+    "icerik": "Allah",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css"
+  },
+  "allah'ın arşı.html": {
+    "tip": " ",
+    "isim": " ",
+    "icerik": "Allah'ın Arşı",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css"
+  },
+  "zaman kavramı.html": {
+    "tip": " ",
+    "isim": " ",
+    "icerik": "Zaman Kavramı",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css"
   }
