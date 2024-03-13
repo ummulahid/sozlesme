@@ -8,24 +8,99 @@
     "order": 1
   },
   "allah.html": {
-    "tip": " ",
-    "isim": " ",
+    "tip": "1. BÖLÜM",
+    "isim": "<br>",
     "icerik": "Allah",
     "mode": "xml",
-    "css": "static/css/ummul-ahid.css"
+    "css": "static/css/ummul-ahid.css",
+    "order": 2
   },
   "allah'ın arşı.html": {
-    "tip": " ",
-    "isim": " ",
+    "tip": "2. BÖLÜM",
+    "isim": "<br>",
     "icerik": "Allah'ın Arşı",
     "mode": "xml",
-    "css": "static/css/ummul-ahid.css"
+    "css": "static/css/ummul-ahid.css",
+    "order": 3
   },
   "zaman kavramı.html": {
-    "tip": " ",
-    "isim": " ",
+    "tip": "3. BÖLÜM",
+    "isim": "<br>",
     "icerik": "Zaman Kavramı",
     "mode": "xml",
-    "css": "static/css/ummul-ahid.css"
+    "css": "static/css/ummul-ahid.css",
+    "order": 4
+  },
+  "korunan kitap.html": {
+    "tip": "4. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Kur'an, Korunan Kitap",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 5
+  },
+  "şirk konusu.html": {
+    "tip": "5. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Şirk Konusu",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 6
+  },
+  "fıkıh.html": {
+    "tip": "6. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Fıkıh",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 7
+  },
+  "ankebut.html": {
+    "tip": "7. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Ankebut",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 8
+  },
+  "ilk yaradılış.html": {
+    "tip": "8. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "İlk Yaradılış ve Hz.Adem Konusu",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 9
+  },
+  "en parlak yıldız.html": {
+    "tip": "9. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Kur’an’ın En Parlak Yıldızı",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 10
+  },
+  "cehennem mimarı.html": {
+    "tip": "10. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Cehennem Mimarı",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 11
+  },
+  "namaz.html": {
+    "tip": "11. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Namaz",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 12
+  },
+  "son söz.html": {
+    "tip": "12. BÖLÜM",
+    "isim": "<br>",
+    "icerik": "Soz Söz",
+    "mode": "xml",
+    "css": "static/css/ummul-ahid.css",
+    "order": 13
   }
 }
