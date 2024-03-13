@@ -5,7 +5,7 @@
     "icerik": "<span style='font-variant:small-caps; font-size:150%;'>Okumak için tıklayınız.</span><br><br>Tanımaya devam etmek ve anlamak üzerine düşüncelerim. Aşağıda bölümlere ayrılmış hali bulunmaktadır.",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 1
+    "order": -1
   },
   "allah.html": {
     "tip": "1. BÖLÜM",
@@ -13,7 +13,7 @@
     "icerik": "Allah",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 2
+    "order": -2
   },
   "allah'ın arşı.html": {
     "tip": "2. BÖLÜM",
@@ -21,7 +21,7 @@
     "icerik": "Allah'ın Arşı",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 3
+    "order": -3
   },
   "zaman kavramı.html": {
     "tip": "3. BÖLÜM",
@@ -29,7 +29,7 @@
     "icerik": "Zaman Kavramı",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 4
+    "order": -4
   },
   "korunan kitap.html": {
     "tip": "4. BÖLÜM",
@@ -37,7 +37,7 @@
     "icerik": "Kur'an, Korunan Kitap",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 5
+    "order": -5
   },
   "şirk konusu.html": {
     "tip": "5. BÖLÜM",
@@ -45,7 +45,7 @@
     "icerik": "Şirk Konusu",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 6
+    "order": -6
   },
   "fıkıh.html": {
     "tip": "6. BÖLÜM",
@@ -53,7 +53,7 @@
     "icerik": "Fıkıh",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 7
+    "order": -7
   },
   "ankebut.html": {
     "tip": "7. BÖLÜM",
@@ -61,7 +61,7 @@
     "icerik": "Ankebut",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 8
+    "order": -8
   },
   "ilk yaradılış.html": {
     "tip": "8. BÖLÜM",
@@ -69,7 +69,7 @@
     "icerik": "İlk Yaradılış ve Hz.Adem Konusu",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 9
+    "order": -9
   },
   "en parlak yıldız.html": {
     "tip": "9. BÖLÜM",
@@ -77,7 +77,7 @@
     "icerik": "Kur’an’ın En Parlak Yıldızı",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 10
+    "order": -10
   },
   "cehennem mimarı.html": {
     "tip": "10. BÖLÜM",
@@ -85,7 +85,7 @@
     "icerik": "Cehennem Mimarı",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 11
+    "order": -11
   },
   "namaz.html": {
     "tip": "11. BÖLÜM",
@@ -93,7 +93,7 @@
     "icerik": "Namaz",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 12
+    "order": -12
   },
   "son söz.html": {
     "tip": "12. BÖLÜM",
@@ -101,6 +101,6 @@
     "icerik": "Soz Söz",
     "mode": "xml",
     "css": "static/css/ummul-ahid.css",
-    "order": 13
+    "order": -13
   }
 }
