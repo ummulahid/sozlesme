@@ -60,7 +60,6 @@ function renderCard(values, d){
                 <p class="card-body" style='
                     margin-block-start: 0;
                     margin-top:0.5rem;
-                    font-size: 2rem;
                 '>
                     ${config.body}
                 </p>
