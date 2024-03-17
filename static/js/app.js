@@ -157,5 +157,11 @@
             return this._busy = false;
         })
     }}
+    adopt ...${[
+        "ahid-siir", 
+        (await import(
+            "./component-siir.js"
+        )).render
+    ]}<ahid-siir ${{}}/>
     `
 }()
