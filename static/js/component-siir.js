@@ -32,12 +32,12 @@ function siir({name, attrs, styles, props, data, el}){
         ["padding", "1rem"],
         ["border-image", "url(static/img/ahid-siir/border.png) 20% 20% / 2rem 2rem / 2rem 2rem round"]
     ]}
-    +-> ${ch.p} +-> ${ch.strong}
+    +-> ${ch.span} +-> ${ch.strong}
     => ${({values:v}) => () => {
         ch.set("textContent", v.baslik);
     }}
     => ${({values:v}) => () => {
-        ch(v.div).set("textContent", v.text);
+        ch(v.div)`+> ${ch.dom`<span>${v.text}</span>`}`
     }}
     `
 }
