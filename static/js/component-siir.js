@@ -21,13 +21,16 @@ function siir({name, attrs, styles, props, data, el}){
             return ac;
         }, []).join("\n");
     }}
+    >> textContent ${""}
     +-> ${ch.div}
     style ${[
         ["width", "auto"],
         ["padding", "1rem"],
         ["border-image", "url(static/img/ahid-siir/border.png) 20% 20% / 2rem 2rem / 2rem 2rem round"]
     ]}
-    >> textContent ${({values:v}) => v.text}
+    => ${({values:v}) => () => {
+        ch.set("textContent", v.text);
+    }}
     `
 }
 
