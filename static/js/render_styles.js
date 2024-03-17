@@ -81,6 +81,9 @@ function renderStyles(values){
             container: game-card-container;
             container-type: inline-size;
         }
+        game-card p.card-body {
+            font-size: 1.6rem;
+        }
         @container game-card-container (max-width: 600px) {
             game-card {
                 padding: 0.125rem 0rem !important;
@@ -89,7 +92,7 @@ function renderStyles(values){
             }
             game-card > div:first-child {
                 height: ${values.cardHeightSmall} !important;
-                font-size: 0.5rem !important;
+                font-size: 0.8rem !important;
                 padding: 0rem 0rem !important;
             }
             game-card > div:last-child {
