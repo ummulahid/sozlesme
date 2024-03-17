@@ -28,12 +28,6 @@
             "./component-game-card.js"
         )).render
     ]}
-    adopt ...${[
-        "ahid-siir", 
-        (await import(
-            "./component-siir.js"
-        )).render
-    ]}<ahid-siir ${{}}/>
     *> ${"style"} |> sappend ${0}
     >> textContent ${({values}) => values.renderStyles.render(values)}
     0> cont: ${ch.select("#card-container", document.body).selected}
