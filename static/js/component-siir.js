@@ -13,7 +13,7 @@ function siir({name, attrs, styles, props, data, el}){
     ]}
     => ${({values:v}) => () => {
         const 
-            kita = ch.gatr("kita") || 4,
+            kita = +ch.gatr("kita") || 4,
             ayrac = ch.gatr("ayrac") || "***",
             baslik = ch.gatr("baslik") || "";
         let text = ch.get("textContent");
