@@ -92,12 +92,15 @@ function renderStyles(values){
             }
             game-card > div:first-child {
                 height: ${values.cardHeightSmall} !important;
-                font-size: 0.8rem !important;
+                font-size: 0.7rem !important;
                 padding: 0rem 0rem !important;
             }
             game-card > div:last-child {
                 height: ${values.cardHeightSmall} !important;
                 width: calc(${values.cardHeightSmall} * ${values.aspectRatio}) !important;
+            }
+            game-card p.card-body {
+                font-size: 0.8rem;
             }
             .card-body::first-letter {
                 font-size: 1rem !important;
