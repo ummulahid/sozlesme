@@ -1,26 +1,24 @@
 function siir({name, attrs, styles, props, data, el, proto}){
     if (!el.baslatildi){
-        ch`=> ${({values:v}) => {
-            ch(document.head)`
-            +> ${ch.dom`
-                <style data-for="ahid-siir">
-                    ahid-siir div:after {
-                        display: block;
-                        position: absolute;
-                        inset:0;
-                        pointer-events: none;
-                        content: '';
-                        opacity: 0.9;
-                        transition: opacity 1s ease;
-                        z-index: -1;
-                        border-image: url(static/img/ahid-siir/border.png) 20% 20% / 2rem 2rem / 2rem 2rem round;
-                    }
-                    :root[data-theme="dark"] ahid-siir div:after {
-                        opacity: 0.4;
-                    }
-                </style>
-            `}`
-        }}`
+        ch(document.head)`
+        +> ${ch.dom`
+            <style data-for="ahid-siir">
+                ahid-siir div:after {
+                    display: block;
+                    position: absolute;
+                    inset:0;
+                    pointer-events: none;
+                    content: '';
+                    opacity: 0.9;
+                    transition: opacity 1s ease;
+                    z-index: -1;
+                    border-image: url(static/img/ahid-siir/border.png) 20% 20% / 2rem 2rem / 2rem 2rem round;
+                }
+                :root[data-theme="dark"] ahid-siir div:after {
+                    opacity: 0.4;
+                }
+            </style>
+        `}`
         proto.baslatildi = true;
     }
     ch`
