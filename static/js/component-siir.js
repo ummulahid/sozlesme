@@ -25,6 +25,7 @@ function siir({name, attrs, styles, props, data, el, proto}){
     -> ${el}
     style ${[
         ["display", "flex"],
+        ["position", "relative"],
         ["margin", "auto"],
         ["justify-content", "center"],
         ["align-items", "center"],
@@ -51,7 +52,8 @@ function siir({name, attrs, styles, props, data, el, proto}){
     +-> div:${ch.div}
     style ${[
         ["width", "auto"],
-        ["padding", "1rem"]
+        ["padding", "1rem"],
+        ["position", "relative"]
     ]}
     +-> ${ch.span} +-> ${ch.strong}
     => ${({values:v}) => () => {
