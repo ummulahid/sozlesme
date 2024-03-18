@@ -1,7 +1,7 @@
 function siir({name, attrs, styles, props, data, el, proto}){
     if (!el.baslatildi){
         ch`=> ${({values:v}) => {
-            ch(v.head)`
+            ch(document.head)`
             +> ${ch.dom`
                 <style data-for="ahid-siir">
                     ahid-siir div:after {
