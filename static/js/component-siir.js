@@ -30,7 +30,7 @@ function siir({name, attrs, styles, props, data, el, proto}){
         ["justify-content", "center"],
         ["align-items", "center"],
         ["padding", "2rem"],
-        ["white-space", "pre"],
+        ["white-space", "pre-wrap"],
         ["text-align", "center"],
         ["transition", "all 1s ease"]
     ]}
